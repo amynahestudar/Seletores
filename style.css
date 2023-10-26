@@ -1,0 +1,37 @@
+*{ background-color:blanchedalmond}
+
+div{
+    display: inline-block;
+     border: 1px solid white;
+     width: 200px;
+    height: 200px;
+
+}
+
+.vermelho{ 
+        background-color: red;}
+
+  div{
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+
+  } 
+
+  .cyan{
+    background-color: cyan;
+  }
+
+  .verde{
+    background-color: green;
+      }
+
+.amarelo{
+    background-color: yellow;
+}
+
+#borda{
+    display: inline-block;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
