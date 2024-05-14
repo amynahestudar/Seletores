@@ -1,8 +1,8 @@
-*{ background-color:blanchedalmond}
+*{ background-color:rgb(238, 209, 165)}
 
 div{
     display: inline-block;
-     border: 1px solid white;
+     border: 0.2px  solid white;
      width: 200px;
     height: 200px;
 
@@ -18,7 +18,7 @@ div{
   } 
 
   .cyan{
-    background-color: cyan;
+    background-color:blue;
   }
 
   .verde{
@@ -29,9 +29,14 @@ div{
     background-color: yellow;
 }
 
-#borda{
+  #canto {
     display: inline-block;
-    border: 2px solid black;
+    border: 3px solid black;
     width: 200px;
     height: 200px;
+    margin: 0.5px;
+    padding: 0.3px;
+}
+.hov:hover{
+  background-color: aqua;
 }
